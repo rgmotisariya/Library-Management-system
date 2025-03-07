@@ -54,5 +54,6 @@
 
         public User? User { get; set; }
         public Book? Book { get; set; }
+
     }
 }

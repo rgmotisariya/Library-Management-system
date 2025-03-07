@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YT\\PR\\Programs\\231116LibraryMS\\API\\API\\API.csproj": {}
+    "C:\\Users\\Radhika.Motisariya\\source\\repos\\rgmotisariya\\Library-Management-system\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\YT\\PR\\Programs\\231116LibraryMS\\API\\API\\API.csproj": {
+    "C:\\Users\\Radhika.Motisariya\\source\\repos\\rgmotisariya\\Library-Management-system\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YT\\PR\\Programs\\231116LibraryMS\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Radhika.Motisariya\\source\\repos\\rgmotisariya\\Library-Management-system\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\YT\\PR\\Programs\\231116LibraryMS\\API\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\onlyf\\.nuget\\packages\\",
-        "outputPath": "D:\\YT\\PR\\Programs\\231116LibraryMS\\API\\API\\obj\\",
+        "projectPath": "C:\\Users\\Radhika.Motisariya\\source\\repos\\rgmotisariya\\Library-Management-system\\API\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Radhika.Motisariya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Radhika.Motisariya\\source\\repos\\rgmotisariya\\Library-Management-system\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\onlyf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Radhika.Motisariya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -47,29 +52,29 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.6.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[7.3.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.6.0, )"
             }
           },
           "imports": [
@@ -91,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
